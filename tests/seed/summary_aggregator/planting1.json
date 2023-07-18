@@ -1,0 +1,581 @@
+{
+    "aliases":
+    [
+        {
+            "id": "NDk2MDYyXzYwYmZhZDExNGM0NDk5MGViYzhkY2E3OQ",
+            "model_scope": "DOCUMENT",
+            "system_type": "JOHN_DEERE",
+            "instance_system_id": "496062"
+        }
+    ],
+    "asset_uses":
+    [
+        {
+            "resource_ref": "UNKNOWN",
+            "resource_measures":
+            [
+                {
+                    "dtr_code": "A_AREA_ALLOCATED",
+                    "value": 182800.0,
+                    "uom": "m2",
+                    "user_uom": "ha"
+                },
+                {
+                    "dtr_code": "A_TIME_ALLOCATED",
+                    "value": 13675.0,
+                    "uom": "sec",
+                    "user_uom": "sec"
+                },
+                {
+                    "dtr_code": "M_ACT_SPEED",
+                    "uom": "km1hr-1",
+                    "user_uom": "km1hr-1",
+                    "value": 8.6325387423947
+                }
+            ],
+            "resource_type": "ASSET"
+        }
+    ],
+    "assets":
+    [
+        {
+            "id": "2daffb34-38a8-5645-a017-bc153380af18",
+            "aliases":
+            [
+                {
+                    "id": "UNKNOWN",
+                    "model_scope": "ASSET",
+                    "system_type": "JOHN_DEERE",
+                    "instance_system_id": "496062"
+                }
+            ],
+            "description": "UNKNOWN",
+            "serial_number": "UNKNOWN"
+        }
+    ],
+    "attachments":
+    [
+        {
+            "description": "Source",
+            "attachment_type": "RAW_OPERATIONS_DATA",
+            "uri": "https://dev-ingestor-data.s3.us-east-2.amazonaws.com/raw/john_deere/d2af5a80-f16c-4ee0-ab9e-4e6e2fdf1f02_ce5cf099-b36c-4ea4-877e-ec0c0361a540/operation/NDk2MDYyXzYwYmZhZDExNGM0NDk5MGViYzhkY2E3OQ.json"
+        },
+        {
+            "description": "Raw Spatial Data",
+            "attachment_type": "RAW_SPATIAL_OPERATIONS_DATA",
+            "uri": "https://dev-ingestor-data.s3.us-east-2.amazonaws.com/raw/john_deere/d2af5a80-f16c-4ee0-ab9e-4e6e2fdf1f02_ce5cf099-b36c-4ea4-877e-ec0c0361a540/shapefile/NDk2MDYyXzYwYmZhZDExNGM0NDk5MGViYzhkY2E3OQ.zip"
+        },
+        {
+            "description": "Canonical Spatial Data",
+            "attachment_type": "NORMALIZED_SPATIAL_OPERATIONS_DATA",
+            "uri": "https://dev-ingestor-data.s3.us-east-2.amazonaws.com/normalized/d2af5a80-f16c-4ee0-ab9e-4e6e2fdf1f02_ce5cf099-b36c-4ea4-877e-ec0c0361a540/operation/07e038ea-8f7a-5b0f-a964-8cedda4295e3-spatial.geojson"
+        },
+        {
+            "description": "Coverage Shape Data",
+            "attachment_type": "NORMALIZED_COVERAGE_SHAPE_DATA",
+            "uri": "https://dev-ingestor-data.s3.us-east-2.amazonaws.com/normalized/d2af5a80-f16c-4ee0-ab9e-4e6e2fdf1f02_ce5cf099-b36c-4ea4-877e-ec0c0361a540/operation/07e038ea-8f7a-5b0f-a964-8cedda4295e3-coverage-shape.geojson"
+        },
+        {
+            "description": "Canonical Summary Data",
+            "attachment_type": "NORMALIZED_OPERATIONS_DATA",
+            "uri": "https://dev-ingestor-data.s3.us-east-2.amazonaws.com/normalized/d2af5a80-f16c-4ee0-ab9e-4e6e2fdf1f02_ce5cf099-b36c-4ea4-877e-ec0c0361a540/operation/07e038ea-8f7a-5b0f-a964-8cedda4295e3-summary.json"
+        },
+        {
+            "description": "A_ACT_SEED_PER_AREA",
+            "attachment_type": "IMAGE-MAP",
+            "uri": "https://dev-ingestor-data.s3.us-east-2.amazonaws.com/raw/john_deere/d2af5a80-f16c-4ee0-ab9e-4e6e2fdf1f02_ce5cf099-b36c-4ea4-877e-ec0c0361a540/image/SeedingRateResult-NDk2MDYyXzYwYmZhZDExNGM0NDk5MGViYzhkY2E3OQ.png"
+        },
+        {
+            "description": "UNKNOWN",
+            "attachment_type": "IMAGE-MAP",
+            "uri": "https://dev-ingestor-data.s3.us-east-2.amazonaws.com/raw/john_deere/d2af5a80-f16c-4ee0-ab9e-4e6e2fdf1f02_ce5cf099-b36c-4ea4-877e-ec0c0361a540/image/SeedingVarietiesResult-NDk2MDYyXzYwYmZhZDExNGM0NDk5MGViYzhkY2E3OQ.png"
+        },
+        {
+            "description": "M_ACT_SPEED",
+            "attachment_type": "IMAGE-MAP",
+            "uri": "https://dev-ingestor-data.s3.us-east-2.amazonaws.com/raw/john_deere/d2af5a80-f16c-4ee0-ab9e-4e6e2fdf1f02_ce5cf099-b36c-4ea4-877e-ec0c0361a540/image/SeedingSpeedResult-NDk2MDYyXzYwYmZhZDExNGM0NDk5MGViYzhkY2E3OQ.png"
+        }
+    ],
+    "bounding_box":
+    [
+        -89.78993453080815,
+        39.99700901330598,
+        -89.7763550355379,
+        40.00053272622686
+    ],
+    "created": "2022-03-03T02:58:37.593391+00:00",
+    "crop":
+    {
+        "id": "GLXMA",
+        "aliases":
+        [
+            {
+                "id": 174,
+                "model_scope": "CROP",
+                "system_type": "JOHN_DEERE",
+                "instance_system_id": "496062"
+            }
+        ],
+        "description": "SOYBEANS",
+        "is_resolved": true
+    },
+    "description": "210514 1149 PLANTING",
+    "document_state": "DONE",
+    "document_type": "WORK_RECORD",
+    "farms":
+    [
+        {
+            "id": "de89335f-175c-5fe5-a633-95f1687a313d",
+            "aliases":
+            [
+                {
+                    "id": "85363ded-05a2-4389-629d-9f34344c44e7",
+                    "model_scope": "FARM",
+                    "system_type": "JOHN_DEERE",
+                    "instance_system_id": "496062"
+                }
+            ],
+            "description": "",
+            "grower_ref": "6e0feb71-5091-f576-1bc5-a4e0f42072a3",
+            "is_resolved": false
+        }
+    ],
+    "fields":
+    [
+        {
+            "id": "d5c878f1-b25b-12d6-e68f-4acd3f3ae757",
+            "aliases":
+            [
+                {
+                    "id": "d5c878f1-b25b-12d6-e68f-4acd3f3ae757",
+                    "model_scope": "FIELD",
+                    "system_type": "JOHN_DEERE",
+                    "instance_system_id": "496062"
+                }
+            ],
+            "description": "12 ACERS WEST",
+            "grower_ref": "6e0feb71-5091-f576-1bc5-a4e0f42072a3",
+            "farm_ref": "85363ded-05a2-4389-629d-9f34344c44e7",
+            "is_resolved": false
+        }
+    ],
+    "grower":
+    {
+        "id": "b1348b76-9767-5981-a993-22c9baa55bff",
+        "aliases":
+        [
+            {
+                "id": "6e0feb71-5091-f576-1bc5-a4e0f42072a3",
+                "model_scope": "GROWER",
+                "system_type": "JOHN_DEERE",
+                "instance_system_id": "496062"
+            }
+        ],
+        "description": "",
+        "is_resolved": false
+    },
+    "id": "07e038ea-8f7a-5b0f-a964-8cedda4295e3",
+    "integration_account_ref": "d2af5a80-f16c-4ee0-ab9e-4e6e2fdf1f02_ce5cf099-b36c-4ea4-877e-ec0c0361a540",
+    "land_uses":
+    [
+        {
+            "resource_ref": "d5c878f1-b25b-12d6-e68f-4acd3f3ae757",
+            "resource_measures":
+            [
+                {
+                    "dtr_code": "A_AREA_ALLOCATED",
+                    "value": 182800.0,
+                    "uom": "m2",
+                    "user_uom": "ha"
+                },
+                {
+                    "dtr_code": "A_TIME_ALLOCATED",
+                    "value": 13675.0,
+                    "uom": "sec",
+                    "user_uom": "sec"
+                }
+            ],
+            "resource_type": "FIELD"
+        }
+    ],
+    "legends":
+    [
+        {
+            "@type": "MapLegend",
+            "unitId": "seeds1ha-1",
+            "ranges":
+            [
+                {
+                    "@type": "MapLegendItem",
+                    "minimum": 367000.0,
+                    "maximum": 367000.0,
+                    "hexColor": "#0BA74A",
+                    "percent": 0.0
+                },
+                {
+                    "@type": "MapLegendItem",
+                    "minimum": 344000.0,
+                    "maximum": 366999.0,
+                    "hexColor": "#71BF44",
+                    "percent": 0.21
+                },
+                {
+                    "@type": "MapLegendItem",
+                    "minimum": 339000.0,
+                    "maximum": 343999.0,
+                    "hexColor": "#B2D239",
+                    "percent": 0.4
+                },
+                {
+                    "@type": "MapLegendItem",
+                    "minimum": 334000.0,
+                    "maximum": 338999.0,
+                    "hexColor": "#FFF200",
+                    "percent": 0.31
+                },
+                {
+                    "@type": "MapLegendItem",
+                    "minimum": 266000.0,
+                    "maximum": 333999.0,
+                    "hexColor": "#FDB915",
+                    "percent": 0.08
+                },
+                {
+                    "@type": "MapLegendItem",
+                    "minimum": 172000.0,
+                    "maximum": 265999.0,
+                    "hexColor": "#F58020",
+                    "percent": 0.0
+                },
+                {
+                    "@type": "MapLegendItem",
+                    "minimum": 0.0,
+                    "maximum": 171999.0,
+                    "hexColor": "#EC1F28",
+                    "percent": 0.0
+                }
+            ],
+            "measurementType": "SeedingRateResult",
+            "description": "A_ACT_SEED_PER_AREA"
+        },
+        {
+            "@type": "MapLegend",
+            "unitId": "km1hr-1",
+            "ranges":
+            [
+                {
+                    "@type": "MapLegendItem",
+                    "minimum": 9.61,
+                    "maximum": 9.61,
+                    "hexColor": "#0BA74A",
+                    "percent": 0.28
+                },
+                {
+                    "@type": "MapLegendItem",
+                    "minimum": 8.96,
+                    "maximum": 9.6,
+                    "hexColor": "#71BF44",
+                    "percent": 0.22
+                },
+                {
+                    "@type": "MapLegendItem",
+                    "minimum": 8.27,
+                    "maximum": 8.950000000000001,
+                    "hexColor": "#B2D239",
+                    "percent": 0.18
+                },
+                {
+                    "@type": "MapLegendItem",
+                    "minimum": 7.74,
+                    "maximum": 8.26,
+                    "hexColor": "#FFF200",
+                    "percent": 0.11
+                },
+                {
+                    "@type": "MapLegendItem",
+                    "minimum": 7.19,
+                    "maximum": 7.73,
+                    "hexColor": "#FDB915",
+                    "percent": 0.09
+                },
+                {
+                    "@type": "MapLegendItem",
+                    "minimum": 6.58,
+                    "maximum": 7.180000000000001,
+                    "hexColor": "#F58020",
+                    "percent": 0.07
+                },
+                {
+                    "@type": "MapLegendItem",
+                    "minimum": 0.0,
+                    "maximum": 6.57,
+                    "hexColor": "#EC1F28",
+                    "percent": 0.05
+                }
+            ],
+            "measurementType": "SeedingSpeedResult",
+            "description": "M_ACT_SPEED"
+        },
+        {
+            "@type": "MapLegend",
+            "description": "UNKNOWN",
+            "measurementType": "SeedingVarietiesResult",
+            "ranges":
+            [
+                {
+                    "@type": "MapLegendItem",
+                    "hexColor": "#4B0082",
+                    "label": "P35T15E",
+                    "percent": 0.16
+                },
+                {
+                    "@type": "MapLegendItem",
+                    "hexColor": "#FFFF00",
+                    "label": "P35TO1SE",
+                    "percent": 0.84
+                }
+            ]
+        }
+    ],
+    "modified": "2022-03-03T02:58:41.225547+00:00",
+    "operation_types":
+    [
+        "PLANTING"
+    ],
+    "organization_name": "1 Clint Ingram",
+    "organization_ref": "ce5cf099-b36c-4ea4-877e-ec0c0361a540",
+    "parties":
+    [],
+    "party_uses":
+    [],
+    "product_uses":
+    [
+        {
+            "is_carrier": "false",
+            "is_tank_mix": "false",
+            "mix_components":
+            [],
+            "resource_measures":
+            [
+                {
+                    "dtr_code": "A_AREA_ALLOCATED",
+                    "uom": "m2",
+                    "user_uom": "ha",
+                    "value": 150700.0
+                },
+                {
+                    "dtr_code": "A_ACT_SEED_TOTAL",
+                    "uom": "seeds",
+                    "user_uom": "seeds",
+                    "value": 5120000
+                },
+                {
+                    "dtr_code": "A_ACT_SEED_PER_AREA",
+                    "uom": "seeds1[m2]-1",
+                    "user_uom": "seeds1ha-1",
+                    "value": 33.9642
+                }
+            ],
+            "resource_ref": "fcdaf5f6-0c4d-5eea-be90-8b68633f61c7",
+            "resource_type": "PRODUCT"
+        },
+        {
+            "is_carrier": "false",
+            "is_tank_mix": "false",
+            "mix_components":
+            [],
+            "resource_measures":
+            [
+                {
+                    "dtr_code": "A_AREA_ALLOCATED",
+                    "uom": "m2",
+                    "user_uom": "ha",
+                    "value": 32000.0
+                },
+                {
+                    "dtr_code": "A_ACT_SEED_TOTAL",
+                    "uom": "seeds",
+                    "user_uom": "seeds",
+                    "value": 1098120
+                },
+                {
+                    "dtr_code": "A_ACT_SEED_PER_AREA",
+                    "uom": "seeds1[m2]-1",
+                    "user_uom": "seeds1ha-1",
+                    "value": 34.283300000000004
+                }
+            ],
+            "resource_ref": "b7f5ed0e-8bf8-5859-b9ff-4845ac8ca899",
+            "resource_type": "PRODUCT"
+        }
+    ],
+    "products":
+    [
+        {
+            "id": "fcdaf5f6-0c4d-5eea-be90-8b68633f61c7",
+            "aliases":
+            [
+                {
+                    "id": "P35TO1SE",
+                    "model_scope": "PRODUCT",
+                    "system_type": "JOHN_DEERE",
+                    "instance_system_id": "496062"
+                }
+            ],
+            "description": "P35TO1SE",
+            "product_type": "CROP_VARIETY",
+            "has_crop_protection": false,
+            "has_crop_nutrition": false,
+            "has_harvested_commodity": false,
+            "category": "UNKNOWN",
+            "form": "UNKNOWN",
+            "is_resolved": "false"
+        },
+        {
+            "id": "b7f5ed0e-8bf8-5859-b9ff-4845ac8ca899",
+            "aliases":
+            [
+                {
+                    "id": "P35T15E",
+                    "model_scope": "PRODUCT",
+                    "system_type": "JOHN_DEERE",
+                    "instance_system_id": "496062"
+                }
+            ],
+            "description": "P35T15E",
+            "product_type": "CROP_VARIETY",
+            "has_crop_protection": false,
+            "has_crop_nutrition": false,
+            "has_harvested_commodity": false,
+            "category": "UNKNOWN",
+            "form": "UNKNOWN",
+            "is_resolved": "false"
+        },
+        {
+            "id": "24a7a460-66f1-52f5-b2ad-a290c96051bf",
+            "aliases":
+            [
+                {
+                    "id": "SOYBEANS",
+                    "model_scope": "PRODUCT",
+                    "system_type": "JOHN_DEERE",
+                    "instance_system_id": "496062"
+                }
+            ],
+            "description": "SOYBEANS",
+            "product_type": "CROP_VARIETY",
+            "form": "SOLID",
+            "is_resolved": "false",
+            "product_components":
+            [
+                {
+                    "product_ref": "fcdaf5f6-0c4d-5eea-be90-8b68633f61c7"
+                },
+                {
+                    "product_ref": "b7f5ed0e-8bf8-5859-b9ff-4845ac8ca899"
+                }
+            ]
+        }
+    ],
+    "spatial_properties":
+    [
+        {
+            "name": "Crop",
+            "description": "Crop designator",
+            "dtr_code": "A_DSG_CROP",
+            "default_uom": "",
+            "user_uom": ""
+        },
+        {
+            "name": "SecWidth",
+            "description": "Width of the implement section",
+            "dtr_code": "M_SECTION_WIDTH",
+            "default_uom": "m",
+            "user_uom": "ft"
+        },
+        {
+            "name": "Distance",
+            "description": "Distance travelled since the last recorded point",
+            "dtr_code": "M_DISTANCE_TRAVELED",
+            "default_uom": "m",
+            "user_uom": "ft"
+        },
+        {
+            "name": "Heading",
+            "description": "Direction of travel",
+            "dtr_code": "M_HEADING",
+            "default_uom": "arcdeg",
+            "user_uom": ""
+        },
+        {
+            "name": "SecID",
+            "description": "The implement section id for this sample",
+            "dtr_code": "M_SECTION_ID",
+            "default_uom": "",
+            "user_uom": ""
+        },
+        {
+            "name": "Product",
+            "description": "Product designator",
+            "dtr_code": "A_DSG_PRODUCT",
+            "default_uom": "",
+            "user_uom": ""
+        },
+        {
+            "name": "Elevation",
+            "description": "Elevation from the GPS receiver, adjusted for the receivers vertical offset",
+            "dtr_code": "M_ELEVATION",
+            "default_uom": "m",
+            "user_uom": "ft"
+        },
+        {
+            "name": "Time",
+            "description": "ISO8601 timestamp in UTC",
+            "dtr_code": "M_TIMESTAMP",
+            "default_uom": "",
+            "user_uom": ""
+        },
+        {
+            "name": "Machine",
+            "description": "Machine designator",
+            "dtr_code": "A_DSG_MACHINE",
+            "default_uom": "",
+            "user_uom": ""
+        }
+    ],
+    "status": "ACTIVE",
+    "task_measures":
+    [
+        {
+            "dtr_code": "A_AREA_ALLOCATED",
+            "value": 182800.0,
+            "uom": "m2",
+            "user_uom": "ha"
+        },
+        {
+            "dtr_code": "A_TIME_ALLOCATED",
+            "value": 13675.0,
+            "uom": "sec",
+            "user_uom": "sec"
+        }
+    ],
+    "time_scopes":
+    [
+        {
+            "description": "2021",
+            "date_context": "CROP_YEAR",
+            "iso_time": "2021-01-01T00:00:00+00:00"
+        },
+        {
+            "description": "START",
+            "date_context": "ACTUAL_START",
+            "iso_time": "2021-05-14T11:49:58+00:00"
+        },
+        {
+            "description": "END",
+            "date_context": "ACTUAL_END",
+            "iso_time": "2021-05-14T15:37:53+00:00"
+        }
+    ],
+    "version": 0
+}

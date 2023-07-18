@@ -1,0 +1,15 @@
+@alias particle = seed = seeds
+@alias acre = ac
+@alias nautical_mile = NMi
+@alias week = wk
+@alias UK_pint = uk_pint = uk_pt
+@alias imperial_gallon = igal
+@alias degF = F
+@alias degC = C
+@alias oz = ozm
+percent = 0.01 = % = prcnt
+
+@system syngenta using mks
+    celsius
+    seed
+@end

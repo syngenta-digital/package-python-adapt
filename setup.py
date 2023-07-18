@@ -15,6 +15,7 @@ setup(
     long_description_content_type="text/markdown",
     packages=find_packages(),
     python_requires=">=3.0",
+    package_data={"": ["*.pintdef", "*.json"]},
     install_requires=[],
     classifiers=[
         "Environment :: Web Environment",

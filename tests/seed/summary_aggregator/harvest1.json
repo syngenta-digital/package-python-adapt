@@ -1,0 +1,421 @@
+{
+    "aliases":
+    [
+        {
+            "id": "a8682d8c6ba8ac5557b54e7f83f5f7af",
+            "model_scope": "DOCUMENT",
+            "system_type": "AGINTEGRATED",
+            "instance_system_id": ""
+        }
+    ],
+    "asset_uses":
+    [
+        {
+            "resource_ref": "18083cfd-90fc-58f4-8c17-b1c2c8ae8c91",
+            "resource_measures":
+            [
+                {
+                    "dtr_code": "A_AREA_ALLOCATED",
+                    "value": "9611.679171578418",
+                    "uom": "m2",
+                    "user_uom": "m2"
+                },
+                {
+                    "dtr_code": "A_TIME_ALLOCATED",
+                    "value": "1.8299966666666667",
+                    "uom": "sec",
+                    "user_uom": "hr"
+                }
+            ],
+            "resource_type": "ASSET"
+        }
+    ],
+    "assets":
+    [
+        {
+            "id": "18083cfd-90fc-58f4-8c17-b1c2c8ae8c91",
+            "serial_number": "2420020215",
+            "is_resolved": false,
+            "aliases":
+            [
+                {
+                    "id": "2420020215",
+                    "model_scope": "ASSET",
+                    "system_type": "AGINTEGRATED",
+                    "instance_system_id": ""
+                }
+            ],
+            "description": "CaseIH 2388"
+        }
+    ],
+    "attachments":
+    [
+        {
+            "description": "Source Raw Spatial Data",
+            "attachment_type": "SOURCE_RAW_SPATIAL_OPERATIONS_DATA",
+            "uri": "https://s3.us-east-2.amazonaws.com/dev-ingestor-uploads/agintegrated/d2af5a80-f16c-4ee0-ab9e-4e6e2fdf1f02_4698a788-6430-463d-b2fd-448f0ed5149a/3f335c10-320c-4af0-9b2d-6319fd3b2900_2022-05-17_21-45-46.zip"
+        },
+        {
+            "description": "Raw Spatial Data",
+            "attachment_type": "RAW_SPATIAL_OPERATIONS_DATA",
+            "uri": "https://dev-ingestor-data.s3.us-east-2.amazonaws.com/raw/agintegrated/d2af5a80-f16c-4ee0-ab9e-4e6e2fdf1f02_4698a788-6430-463d-b2fd-448f0ed5149a/conversion/0424507843-default.zip"
+        },
+        {
+            "description": "Raw Spatial Data",
+            "attachment_type": "RAW_SPATIAL_OPERATIONS_DATA_FILE",
+            "uri": "https://dev-ingestor-data.s3.us-east-2.amazonaws.com/raw/agintegrated/d2af5a80-f16c-4ee0-ab9e-4e6e2fdf1f02_4698a788-6430-463d-b2fd-448f0ed5149a/conversion/0424507843-default.zip?file=20210919_163125.YIELD.js"
+        },
+        {
+            "description": "Canonical Spatial Data",
+            "attachment_type": "NORMALIZED_SPATIAL_OPERATIONS_DATA",
+            "uri": "https://dev-ingestor-data.s3.us-east-2.amazonaws.com/normalized/d2af5a80-f16c-4ee0-ab9e-4e6e2fdf1f02_4698a788-6430-463d-b2fd-448f0ed5149a/operation/95481d75-87b1-5169-b650-6db14f37e57b-spatial.geojson"
+        },
+        {
+            "description": "Coverage Shape Data",
+            "attachment_type": "NORMALIZED_COVERAGE_SHAPE_DATA",
+            "uri": "https://dev-ingestor-data.s3.us-east-2.amazonaws.com/normalized/d2af5a80-f16c-4ee0-ab9e-4e6e2fdf1f02_4698a788-6430-463d-b2fd-448f0ed5149a/operation/95481d75-87b1-5169-b650-6db14f37e57b-coverage-shape.geojson"
+        },
+        {
+            "description": "Canonical Summary Data",
+            "attachment_type": "NORMALIZED_OPERATIONS_DATA",
+            "uri": "https://dev-ingestor-data.s3.us-east-2.amazonaws.com/normalized/d2af5a80-f16c-4ee0-ab9e-4e6e2fdf1f02_4698a788-6430-463d-b2fd-448f0ed5149a/operation/95481d75-87b1-5169-b650-6db14f37e57b-summary.json"
+        },
+        {
+            "description": "M_SECTION_AREA",
+            "attachment_type": "IMAGE-MAP",
+            "uri": "https://dev-ingestor-data.s3.us-east-2.amazonaws.com/normalized/d2af5a80-f16c-4ee0-ab9e-4e6e2fdf1f02_4698a788-6430-463d-b2fd-448f0ed5149a/operation_images/95481d75-87b1-5169-b650-6db14f37e57b-M_SECTION_AREA.png"
+        },
+        {
+            "description": "M_ELEVATION",
+            "attachment_type": "IMAGE-MAP",
+            "uri": "https://dev-ingestor-data.s3.us-east-2.amazonaws.com/normalized/d2af5a80-f16c-4ee0-ab9e-4e6e2fdf1f02_4698a788-6430-463d-b2fd-448f0ed5149a/operation_images/95481d75-87b1-5169-b650-6db14f37e57b-M_ELEVATION.png"
+        },
+        {
+            "description": "M_TIMESTAMP",
+            "attachment_type": "IMAGE-MAP",
+            "uri": "https://dev-ingestor-data.s3.us-east-2.amazonaws.com/normalized/d2af5a80-f16c-4ee0-ab9e-4e6e2fdf1f02_4698a788-6430-463d-b2fd-448f0ed5149a/operation_images/95481d75-87b1-5169-b650-6db14f37e57b-M_TIMESTAMP.png"
+        },
+        {
+            "description": "M_DISTANCE_TRAVELED",
+            "attachment_type": "IMAGE-MAP",
+            "uri": "https://dev-ingestor-data.s3.us-east-2.amazonaws.com/normalized/d2af5a80-f16c-4ee0-ab9e-4e6e2fdf1f02_4698a788-6430-463d-b2fd-448f0ed5149a/operation_images/95481d75-87b1-5169-b650-6db14f37e57b-M_DISTANCE_TRAVELED.png"
+        },
+        {
+            "description": "M_SECTION_WIDTH",
+            "attachment_type": "IMAGE-MAP",
+            "uri": "https://dev-ingestor-data.s3.us-east-2.amazonaws.com/normalized/d2af5a80-f16c-4ee0-ab9e-4e6e2fdf1f02_4698a788-6430-463d-b2fd-448f0ed5149a/operation_images/95481d75-87b1-5169-b650-6db14f37e57b-M_SECTION_WIDTH.png"
+        },
+        {
+            "description": "A_YLD_WMAS_PER_AREA",
+            "attachment_type": "IMAGE-MAP",
+            "uri": "https://dev-ingestor-data.s3.us-east-2.amazonaws.com/normalized/d2af5a80-f16c-4ee0-ab9e-4e6e2fdf1f02_4698a788-6430-463d-b2fd-448f0ed5149a/operation_images/95481d75-87b1-5169-b650-6db14f37e57b-A_YLD_WMAS_PER_AREA.png"
+        },
+        {
+            "description": "M_SECTION_ACTIVE",
+            "attachment_type": "IMAGE-MAP",
+            "uri": "https://dev-ingestor-data.s3.us-east-2.amazonaws.com/normalized/d2af5a80-f16c-4ee0-ab9e-4e6e2fdf1f02_4698a788-6430-463d-b2fd-448f0ed5149a/operation_images/95481d75-87b1-5169-b650-6db14f37e57b-M_SECTION_ACTIVE.png"
+        },
+        {
+            "description": "M_SECTION_ID",
+            "attachment_type": "IMAGE-MAP",
+            "uri": "https://dev-ingestor-data.s3.us-east-2.amazonaws.com/normalized/d2af5a80-f16c-4ee0-ab9e-4e6e2fdf1f02_4698a788-6430-463d-b2fd-448f0ed5149a/operation_images/95481d75-87b1-5169-b650-6db14f37e57b-M_SECTION_ID.png"
+        },
+        {
+            "description": "A_YLD_MOISTURE",
+            "attachment_type": "IMAGE-MAP",
+            "uri": "https://dev-ingestor-data.s3.us-east-2.amazonaws.com/normalized/d2af5a80-f16c-4ee0-ab9e-4e6e2fdf1f02_4698a788-6430-463d-b2fd-448f0ed5149a/operation_images/95481d75-87b1-5169-b650-6db14f37e57b-A_YLD_MOISTURE.png"
+        }
+    ],
+    "bounding_box":
+    [
+        -89.29290474660641,
+        41.62689659139389,
+        -89.2914777807703,
+        41.628245445860216
+    ],
+    "created": "2022-08-12T21:46:11.998453+00:00",
+    "crop":
+    {
+        "id": "ZEAMX",
+        "aliases":
+        [
+            {
+                "id": "Corn",
+                "model_scope": "CROP",
+                "system_type": "AGINTEGRATED",
+                "instance_system_id": ""
+            }
+        ],
+        "description": "Corn",
+        "is_resolved": true
+    },
+    "description": "210919 1631 HARVEST",
+    "document_state": "DONE",
+    "document_type": "WORK_RECORD",
+    "farms":
+    [
+        {
+            "id": "fdf8eeeb-73c2-5706-908a-c2743c93ee24",
+            "aliases":
+            [
+                {
+                    "id": "d98967f7-8577-4da9-8304-8776d1af8d48",
+                    "model_scope": "FARM",
+                    "system_type": "AGINTEGRATED",
+                    "instance_system_id": ""
+                }
+            ],
+            "description": "Bulfer Farms",
+            "grower_ref": "2c977e66-c60b-5641-900a-02b680377ee9",
+            "is_resolved": false
+        }
+    ],
+    "fields":
+    [
+        {
+            "id": "262238d1-3eb0-5dff-bff9-73b499142102",
+            "aliases":
+            [
+                {
+                    "id": "be45c847-67d5-41b2-8d73-b65ad8388716",
+                    "model_scope": "FIELD",
+                    "system_type": "AGINTEGRATED",
+                    "instance_system_id": ""
+                }
+            ],
+            "description": "Maytown Kelly 80",
+            "grower_ref": "2c977e66-c60b-5641-900a-02b680377ee9",
+            "farm_ref": "fdf8eeeb-73c2-5706-908a-c2743c93ee24",
+            "is_resolved": false,
+            "area":
+            {
+                "dtr_code": "A_REPORTED_FIELD_AREA",
+                "value": "0.0",
+                "uom": "m2",
+                "user_uom": "ac"
+            }
+        }
+    ],
+    "grower":
+    {
+        "id": "2c977e66-c60b-5641-900a-02b680377ee9",
+        "aliases":
+        [
+            {
+                "id": "d4c95319-f3bc-4e96-9ac2-50b71f9c3d82",
+                "model_scope": "GROWER",
+                "system_type": "AGINTEGRATED",
+                "instance_system_id": ""
+            }
+        ],
+        "description": "Tom Bulfer",
+        "is_resolved": false
+    },
+    "id": "95481d75-87b1-5169-b650-6db14f37e57b",
+    "integration_account_ref": "d2af5a80-f16c-4ee0-ab9e-4e6e2fdf1f02_4698a788-6430-463d-b2fd-448f0ed5149a",
+    "land_uses":
+    [
+        {
+            "resource_ref": "262238d1-3eb0-5dff-bff9-73b499142102",
+            "resource_measures":
+            [
+                {
+                    "dtr_code": "A_AREA_ALLOCATED",
+                    "value": "9611.679171578418",
+                    "uom": "m2",
+                    "user_uom": "m2"
+                },
+                {
+                    "dtr_code": "A_TIME_ALLOCATED",
+                    "value": "1.8299966666666667",
+                    "uom": "sec",
+                    "user_uom": "hr"
+                }
+            ],
+            "resource_type": "FIELD"
+        }
+    ],
+    "legends":
+    [],
+    "modified": "2022-08-12T21:46:11.998453+00:00",
+    "operation_types":
+    [
+        "HARVEST"
+    ],
+    "organization_ref": "4698a788-6430-463d-b2fd-448f0ed5149a",
+    "parties":
+    [],
+    "party_uses":
+    [],
+    "product_uses":
+    [
+        {
+            "resource_ref": "1e7e1bb2-5a8a-542b-a712-df92aaf62b96",
+            "resource_measures":
+            [
+                {
+                    "dtr_code": "A_AREA_ALLOCATED",
+                    "value": "9611.729999999994",
+                    "uom": "m2",
+                    "user_uom": "m2"
+                },
+                {
+                    "dtr_code": "A_YLD_MOISTURE",
+                    "value": "21.689451689891605",
+                    "uom": "prcnt",
+                    "user_uom": "prcnt"
+                },
+                {
+                    "dtr_code": "A_YLD_VOL_TOTAL",
+                    "value": "31014.1428",
+                    "uom": "l",
+                    "user_uom": "bu"
+                },
+                {
+                    "dtr_code": "A_YLD_VOL_PER_AREA",
+                    "value": "3.2266972542924135",
+                    "uom": "l1[m2]-1",
+                    "user_uom": "bu1[m2]-1"
+                }
+            ],
+            "resource_type": "PRODUCT",
+            "is_carrier": false,
+            "is_tank_mix": false
+        }
+    ],
+    "products":
+    [
+        {
+            "id": "1e7e1bb2-5a8a-542b-a712-df92aaf62b96",
+            "aliases":
+            [
+                {
+                    "id": "Corn",
+                    "model_scope": "PRODUCT",
+                    "system_type": "AGINTEGRATED",
+                    "instance_system_id": ""
+                }
+            ],
+            "description": "Corn",
+            "product_type": "HARVESTED_COMMODITY",
+            "is_resolved": false,
+            "form": "SOLID"
+        }
+    ],
+    "spatial_properties":
+    [
+        {
+            "name": "Area",
+            "description": "Area of the implement section",
+            "dtr_code": "M_SECTION_AREA",
+            "uom": "m2",
+            "user_uom": "m2"
+        },
+        {
+            "name": "Elevation",
+            "description": "Elevation from the GPS receiver, adjusted for the receivers vertical offset",
+            "dtr_code": "M_ELEVATION",
+            "uom": "m",
+            "user_uom": "m"
+        },
+        {
+            "name": "Time",
+            "description": "UTC timestamp",
+            "dtr_code": "M_TIMESTAMP",
+            "uom": "",
+            "user_uom": ""
+        },
+        {
+            "name": "Distance",
+            "description": "Distance travelled since the last recorded point",
+            "dtr_code": "M_DISTANCE_TRAVELED",
+            "uom": "m",
+            "user_uom": "m"
+        },
+        {
+            "name": "SecWidth",
+            "description": "Width of the implement section",
+            "dtr_code": "M_SECTION_WIDTH",
+            "uom": "m",
+            "user_uom": "m"
+        },
+        {
+            "name": "WetMasRate",
+            "description": "The wet (raw) mass reading",
+            "dtr_code": "A_YLD_WMAS_PER_AREA",
+            "uom": "kg1[m2]-1",
+            "user_uom": "kg1[m2]-1"
+        },
+        {
+            "name": "SecStatus",
+            "description": "",
+            "dtr_code": "M_SECTION_ACTIVE",
+            "uom": "",
+            "user_uom": ""
+        },
+        {
+            "name": "SecID",
+            "description": "The implement section id for this sample",
+            "dtr_code": "M_SECTION_ID",
+            "uom": "",
+            "user_uom": ""
+        },
+        {
+            "name": "Moisture",
+            "description": "The crop moisture reading",
+            "dtr_code": "A_YLD_MOISTURE",
+            "uom": "prcnt",
+            "user_uom": "prcnt"
+        },
+        {
+            "name": "WetMasTotal",
+            "description": "Total yield by mass (wet)",
+            "dtr_code": "A_YLD_WMAS_TOTAL",
+            "uom": "kg",
+            "user_uom": "lb"
+        }
+    ],
+    "status": "ACTIVE",
+    "task_measures":
+    [
+        {
+            "dtr_code": "A_AREA_TOTAL",
+            "value": "9611.679171578418",
+            "uom": "m2",
+            "user_uom": "m2"
+        },
+        {
+            "dtr_code": "A_TIME_TOTAL",
+            "value": "1.8299966666666667",
+            "uom": "sec",
+            "user_uom": "hr"
+        }
+    ],
+    "time_scopes":
+    [
+        {
+            "description": "START",
+            "date_context": "ACTUAL_START",
+            "iso_time": "2021-09-19T16:31:25.900000Z"
+        },
+        {
+            "description": "END",
+            "date_context": "ACTUAL_END",
+            "iso_time": "2021-09-19T18:21:13.888000Z"
+        },
+        {
+            "description": "2021",
+            "date_context": "CROP_YEAR",
+            "iso_time": "2021-01-01T00:00:00Z"
+        }
+    ],
+    "version": 0,
+    "allocation":
+    {
+        "is_allocated": true,
+        "is_resolved": false,
+        "field": null,
+        "parents":
+        []
+    }
+}
