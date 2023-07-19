@@ -16,6 +16,8 @@ jsonref = "*"
 pyyaml = "*"
 jsonpickle = "*"
 typing_extensions = "*"
+pint = "*"
+numpy = "*"
 
 [dev-packages]
 autopep8 = "*"
